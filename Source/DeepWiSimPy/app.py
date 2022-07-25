@@ -36,7 +36,7 @@ def main():
         """ Callback function for completed training """
         pass
 
-    trainer = Trainer(input_width=50, label_width=50, shift=0, batch_size=16,
+    trainer = Trainer(input_width=64, label_width=64, shift=0, batch_size=64,
                       on_training_completed_fn=on_training_completed,
                       wait_time=0.01)
     trainer.start()

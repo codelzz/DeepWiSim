@@ -9,9 +9,11 @@ APP_CONFIG = {
     "checkpoint_path": "checkpoints/deepAR",
     'training_history': "checkpoints/deepAR/history.csv",
     "training_epochs": 1,
-    "data_size": 10000,
+    "data_size": 20000,
 }
 
 UNREAL_CONFIG = {
     'num_of_beacons': 22
 }
+
+

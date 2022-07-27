@@ -2,7 +2,7 @@
 
 An tool can automatically generate wireless signal measurement and simultaneously train the deep learning models online.
 
-[Demo Video](https://youtu.be/N3xNYJ51Lb0)
+[Demo Video](https://youtu.be/h7ugjbR2j9M)
 
 ## Introduction
 

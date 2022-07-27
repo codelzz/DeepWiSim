@@ -6,14 +6,7 @@ An tool can automatically generate wireless signal measurement and simultaneousl
 
 ## Introduction
 
-Today, deep learning has been used for wireless signal analysis in many applications. 
-By collecting measurement data of wireless signals from the environment, deep learning models can be trained to accurately predict the change of signal strength in a dynamic environment. 
-However, constructing high-quality training data by measuring wireless signals in real experiment environments is often labor-intensive and time-consuming, which is the biggest obstacle for applying the newest deep learning models to wireless
-signal analysis. 
-To address such issues, we create DeepWiSim, a wireless signal simulator that automates the deep learning process from training date generation to online model training and testing. 
-In DeepWiSim, we design ray-tracing algorithms to simulate wireless signal propagation and use the [UE4](https://www.unrealengine.com/) game engine to model the dynamic environment. 
-We integrate deep learning frameworks into the simulator as python background services that can automatically capture the signal measurement data from the environment and train the deep learning models online. 
-
+Deep learning (DL) has been used for wireless signal analysis in many applications, e.g., indoor localization. By collecting measurement data of wireless signals from the environment, DL models can be trained to accurately predict the change of signal characteristics. However, constructing high-quality DL training data from a real experiment environment is often labor-intensive and time consuming, which is the biggest obstacle to applying the newest DL model to wireless network research. To address such issues, we present DeepWiSim, a ray-tracing-based wireless signal simulator that automates the DL process from data generation to model training and evaluation. The demonstration shows that DeepWiSim can efficiently generate high-quality simulated wireless signal measurement data and simultaneously train and evaluate the DL model.
 
 ## Getting Start
 
